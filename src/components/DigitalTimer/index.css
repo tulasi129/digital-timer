@@ -1,0 +1,138 @@
+.container {
+  background-image: linear-gradient(
+    to Right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #00d9f5
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.timer-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-controller-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.time-running-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.time-state-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+
+.timer-contrller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-controller {
+  display: flex;
+  align-items: center;
+}
+.start-pause-button {
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.start-pause-reset-image {
+  height: 25px;
+  width: 25px;
+}
+.start-pause-reset-text {
+  margin-left: 5px;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.setTimeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.setTime-heading {
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.limit-controller-container {
+  display: flex;
+  align-items: center;
+}
+.decrementMinutes {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.timeSet {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to Right, #00f5a0, #00d9f5);
+  border-radius: 6px;
+}
+.incrementMinutes {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.time {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #00d9f5;
+}
+.status {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
